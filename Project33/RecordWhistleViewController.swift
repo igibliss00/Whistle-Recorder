@@ -10,6 +10,8 @@ import UIKit
 import AVFoundation
 
 class RecordWhistleViewController: UIViewController, AVAudioRecorderDelegate {
+    // MARK: - Properties
+    
     var stackView: UIStackView!
     
     var recordButton: UIButton!
@@ -19,6 +21,7 @@ class RecordWhistleViewController: UIViewController, AVAudioRecorderDelegate {
     var whistleRecorder: AVAudioRecorder!
     var whistlePlayer: AVAudioPlayer!
     
+    // MARK: - View Life Cyle Methods
     override func loadView() {
         view = UIView()
         
@@ -89,6 +92,8 @@ class RecordWhistleViewController: UIViewController, AVAudioRecorderDelegate {
         
         stackView.addArrangedSubview(failLabel)
     }
+    
+    // MARK: - AV Recording Methods
     
     func startRecording() {
         view.backgroundColor = UIColor(red: 0.6, green: 0, blue: 0, alpha: 1)

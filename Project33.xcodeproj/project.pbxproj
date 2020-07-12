@@ -18,6 +18,9 @@
 		490B3E1124BA8A4900806039 /* AddCommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490B3E1024BA8A4900806039 /* AddCommentsViewController.swift */; };
 		490B3E1324BAA4AF00806039 /* SubmitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490B3E1224BAA4AF00806039 /* SubmitViewController.swift */; };
 		490B3E1524BAA70500806039 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 490B3E1424BAA70500806039 /* README.md */; };
+		490BA11A24BB7F2E0054FBC4 /* Whistle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490BA11924BB7F2E0054FBC4 /* Whistle.swift */; };
+		490BA11E24BBB9EC0054FBC4 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490BA11D24BBB9EC0054FBC4 /* ResultsViewController.swift */; };
+		490BA12024BBBA840054FBC4 /* MyGenresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490BA11F24BBBA840054FBC4 /* MyGenresViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		490B3E1024BA8A4900806039 /* AddCommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCommentsViewController.swift; sourceTree = "<group>"; };
 		490B3E1224BAA4AF00806039 /* SubmitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitViewController.swift; sourceTree = "<group>"; };
 		490B3E1424BAA70500806039 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		490BA11924BB7F2E0054FBC4 /* Whistle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whistle.swift; sourceTree = "<group>"; };
+		490BA11D24BBB9EC0054FBC4 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		490BA11F24BBBA840054FBC4 /* MyGenresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGenresViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,9 @@
 				490B3E0E24BA880100806039 /* SelectGenreTableViewController.swift */,
 				490B3E1224BAA4AF00806039 /* SubmitViewController.swift */,
 				490B3E1024BA8A4900806039 /* AddCommentsViewController.swift */,
+				490BA11F24BBBA840054FBC4 /* MyGenresViewController.swift */,
+				490BA11D24BBB9EC0054FBC4 /* ResultsViewController.swift */,
+				490BA11924BB7F2E0054FBC4 /* Whistle.swift */,
 				490B3E0C24BA667B00806039 /* RecordWhistleViewController.swift */,
 				490B3DFA24BA652200806039 /* ViewController.swift */,
 				490B3DFC24BA652200806039 /* Main.storyboard */,
@@ -154,12 +163,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				490BA11A24BB7F2E0054FBC4 /* Whistle.swift in Sources */,
 				490B3E1324BAA4AF00806039 /* SubmitViewController.swift in Sources */,
 				490B3DFB24BA652200806039 /* ViewController.swift in Sources */,
 				490B3DF724BA652200806039 /* AppDelegate.swift in Sources */,
 				490B3E0D24BA667B00806039 /* RecordWhistleViewController.swift in Sources */,
+				490BA11E24BBB9EC0054FBC4 /* ResultsViewController.swift in Sources */,
 				490B3E0F24BA880100806039 /* SelectGenreTableViewController.swift in Sources */,
 				490B3E1124BA8A4900806039 /* AddCommentsViewController.swift in Sources */,
+				490BA12024BBBA840054FBC4 /* MyGenresViewController.swift in Sources */,
 				490B3DF924BA652200806039 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

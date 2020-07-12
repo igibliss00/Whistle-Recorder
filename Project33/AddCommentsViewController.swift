@@ -34,7 +34,7 @@ class AddCommentsViewController: UIViewController, UITextViewDelegate {
         super.viewDidLoad()
         
         title = "Comments"
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "submit", style: .plain, target: self, action: #selector(submitTapped))
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Submit", style: .plain, target: self, action: #selector(submitTapped))
         comments.text = placeholder
     }
     
